@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "SRB-Laundry",
+    "slug": "SRB-Laundry",
+    "icon": "./src/assets/images/icon.png",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.srblaundry",
+      "icon": "./src/assets/images/icon.png"
+    }
+  }
+}
