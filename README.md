@@ -1,43 +1,17 @@
-This project was created with [BuilderX](https://builderx.io/).
+> Why do I have a folder named ".expo" in my project?
 
-## BuilderX uses third party libraries for some of the react-native components such as
+The ".expo" folder is created when an Expo project is started using "expo start" command.
 
-```
-@builderx/utils@0.1.6
-lodash
-react-navigation@4.0.10
-react-native-svg
-react-native-maps
-```
+> What does the "packager-info.json" file contain?
 
-These packages are included as dependencies in package.json file
+The "packager-info.json" file contains port numbers and process PIDs that are used to serve the application to the mobile device/simulator.
 
-## Steps to run project
+> What does the "settings.json" file contain?
 
-In the project directory, you can run:
+The "settings.json" file contains the server configuration that is used to serve the application manifest.
 
-### `yarn` or `npm install`
+> Should I commit the ".expo" folder?
 
-This will add the dependencies required to run the project.
+No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
 
-### `yarn start` or `npm start`
-
-This will start the project.
-
-**Note: BuilderX generates Expo project at the moment, if you want to add custom fonts in your create-react-native-app project please refer these steps**
-
-1. Add Fonts to an "assets/fonts" folder in the root of your project.
-2. Add rnpm to package.json providing the path to the font files:
-
-```
-"rnpm": {
-  "assets": [
-    "./assets/fonts/"
-  ]
-}
-```
-
-3. Run react-native link
-
-##### This should add your custom fonts in the react native project.
-
+Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
